@@ -39,9 +39,6 @@
           };
         }
         nix-presentation.nixosModules.default
-        {
-          presentation.enable = true;
-        }
         ./configuration.nix
       ];
     };

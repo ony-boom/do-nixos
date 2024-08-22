@@ -15,5 +15,10 @@
       enable = true;
       defaultEditor = true;
     };
+
+    nix-presentation = {
+      enable = true;
+      # port = 8080; # Optional
+    };
   };
 }
