@@ -62,11 +62,11 @@
         "oldNixpkgs": "oldNixpkgs"
       },
       "locked": {
-        "lastModified": 1724318286,
-        "narHash": "sha256-uDn7oBIlBcBKrIU52FYCuxUuRMPY06fn2J2OQ/+lRPI=",
+        "lastModified": 1724321710,
+        "narHash": "sha256-M14STMeXkZC6jhATATZ3eOYDso07N6E+G/dKBnv0G6w=",
         "owner": "ony-boom",
         "repo": "nix-presentations",
-        "rev": "5a21932a674a5451ebf3c4db4afb9dcc2a85fe2f",
+        "rev": "3a37f29217dbf69c446e8e1899eb6839a413cdb2",
         "type": "github"
       },
       "original": {
