@@ -1,7 +1,5 @@
 {
   modulesPath,
-  lib,
-  pkgs,
   config,
   ...
 }: {
@@ -21,13 +19,6 @@
 
   services.openssh.enable = true;
   services.tailscale.enable = true;
-
-  environment.systemPackages = map lib.lowPrio (with pkgs; [
-    curl
-    htop
-    tailscale
-    gitMinimal
-  ]);
 
   networking.firewall.allowedUDPPorts = [config.services.tailscale.port];
 
