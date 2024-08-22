@@ -16,7 +16,7 @@
     pkgs = nixpkgs.legacyPackages.${system};
     system = "x86_64-linux";
   in {
-    apps.${system}.default = {
+    apps.${system}.deploy = {
       type = "app";
       program = "${pkgs.deploy-rs}/bin/deploy";
     };
