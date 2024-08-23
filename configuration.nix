@@ -23,7 +23,7 @@
   networking.firewall.allowedUDPPorts = [config.services.tailscale.port];
 
   users.users.root.openssh.authorizedKeys.keys = [
-    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFk4ydn78plOeWDhjNZbQSJbKr6mLciXme4XmYmzYnXy onyrakoto27@gmail.com"
+		# your public ssh key here
   ];
 
   system.stateVersion = "24.11";
