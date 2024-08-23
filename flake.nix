@@ -43,7 +43,8 @@
       ];
     };
     deploy.nodes.do-nixos = {
-      hostname = "167.99.73.105";
+      # server ip address or something like that
+      hostname = "";
       profiles.system = {
         user = "root";
         sshUser = "root";
